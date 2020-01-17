@@ -10,6 +10,10 @@ def numbers(n):
     a = list(range(1,n))
     return a
 
+
+print(numbers(10))
+
+
 def multof_3_5(lst):
     sum = 0
     for i in lst:
@@ -17,5 +21,4 @@ def multof_3_5(lst):
             sum += i
     return sum
 
-print(numbers(10))
 print(multof_3_5(numbers(1000)))
